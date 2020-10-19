@@ -8,13 +8,15 @@ body{
 	padding:10px;
 	margin:10px;
 	background:LightGrey;
+	border-radius:5px;
+	box-shadow: 5px 5px Grey;
 }
 
 .assignment img{
 	width:200px;
 	padding:10px;
 	border:inset;
-	margin-right:20px;
+	margin-right:20px; 
 }
 
 h1{
@@ -25,4 +27,8 @@ h1{
 a{
 	text-decoration:none;
 	color:black;
+}
+
+.assignment a:hover{
+	color:White;
 }
